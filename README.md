@@ -24,3 +24,11 @@ In the main method of the App class, two planets must be created and the values 
 ### Requirements:
 The planet class must be tested. 
 The Readme must show the class diagram.
+
+### AUTHOR:
+```sh
+Pablo Abad
+```
+
+## My diagram with https://app.diagrams.net/:
+![My diagram](<Captura de pantalla 2024-07-31 a las 19.53.45.png>)
