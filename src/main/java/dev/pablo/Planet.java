@@ -8,12 +8,12 @@ public class Planet {
     private double mass;
     private double volume;
     private int diameter;
-    private double averageDistanceToSun;
+    private int averageDistanceToSun;
     private PlanetType planetType;
     private boolean visibleToNakedEye;
 
     public Planet(String name, int numberOfSatellites, double mass, double volume, int diameter,
-            double averageDistanceToSun, PlanetType planetType, boolean visibleToNakedEye) {
+            int averageDistanceToSun, PlanetType planetType, boolean visibleToNakedEye) {
         this.name = name;
         this.numberOfSatellites = numberOfSatellites;
         this.mass = mass;
@@ -24,7 +24,7 @@ public class Planet {
         this.visibleToNakedEye = visibleToNakedEye;
     }
 
-    public String getAtributes() {
+    public String getAttributes() {
         return "Name: " + name +
                 "\nNumber of Satellites: " + numberOfSatellites +
                 "\nMass (kg): " + mass +
